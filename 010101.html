@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nome+cognome</title>
+    <link rel="stylesheet" href="verifica.css">
+</head>
+<body>
+
+<div class="container" >
+<p class="punteggio">struttura base + questa parte(3)</p>
+<img src="futurama1.png"   alt="immagine personaggi simpson">
+<audio src="siglafuturama.mp3" controls >
+</audio>
+<div>
+<img src="futurama2.png"   alt="immagine personaggi simpson">  
+
+
+
+
+</div>  
+<ul>
+<li>nome</li>    
+<li>cognome</li>      
+    
+</ul> 
+<ol>
+<li>nome</li>     
+<li>cognome</li>    
+</ol>  
+</div>
+<div class="container">
+<h1 class="punteggio"></h1>
+<p class="punteggio"> (3)</p>
+<h6>nome</h6>
+<h5>nome</h5>   
+<h4>nome</h4>
+<h3>nome</h3>
+<h2>nome</h2>
+<h1>nome</h1>
+<h2>cognome</h2>
+<h3>cognome</h3>
+<h4>cognome</h4>
+<h5>cognome</h5>
+<h6>cognome</h6>
+</div>
+<div class="container">
+<p class="punteggio">(1)</p>
+<a href="0101010.html"><img src="push.png" alt="immagine push"></a>    
+    
+    
+</div>
+<script>  
+  function blocco_mousedx()
+   { return(false); }
+  document.oncontextmenu = blocco_mousedx;
+ <!-- blocco scorciatoie da tastiera -->
+ document.onkeydown = function(blocco_tasti) {
+  if(event.keyCode == 123) 
+{ return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'I'.charCodeAt(0)) { return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'J'.charCodeAt(0)) { return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'U'.charCodeAt(0)) 
+{ return false; } 
+if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'S'.charCodeAt(0)) 
+{ return false; } 
+
+}
+ 
+
+    </script>
+</body>
+</html>

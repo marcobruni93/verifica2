@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nome+cognome</title>
+    <link rel="stylesheet" href="verifica.css">
+</head>
+<body>
+<div class="container">
+<p class="punteggio">(2)</p>
+ <form>
+ <h2>sesso</h2>
+<label>
+Uomo
+ <input type="radio"  name="genere" value="uomo" >
+ </label>
+ <div>
+ <label>
+Donna
+<input type="radio" name="genere" value="donna">
+  </label>   
+ </div>    
+     
+     
+ </form> 
+</div>  
+<div class="container">
+<p class="punteggio">(1)</p>
+<ol>
+<li></li>
+<ol>
+    <li><h1><a href="https://www.google.it/" target="_blank">google</a></h1>  </li>
+    <li>cognome</li>
+    <ul>
+        
+    <li>nome+cognome</li>
+    </ul>
+</ol>   
+    
+    
+    
+</ol>
+   
+</ul>
+</div>
+<script>  
+  function blocco_mousedx()
+   { return(false); }
+  document.oncontextmenu = blocco_mousedx;
+ <!-- blocco scorciatoie da tastiera -->
+ document.onkeydown = function(blocco_tasti) {
+  if(event.keyCode == 123) 
+{ return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'I'.charCodeAt(0)) { return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'C'.charCodeAt(0)) { return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.shiftKey && blocco_tasti.keyCode == 'J'.charCodeAt(0)) { return false; }
+  if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'U'.charCodeAt(0)) 
+{ return false; } 
+if(blocco_tasti.ctrlKey && blocco_tasti.keyCode == 'S'.charCodeAt(0)) 
+{ return false; } 
+
+}
+ 
+
+    </script>
+</body>
+</html>
